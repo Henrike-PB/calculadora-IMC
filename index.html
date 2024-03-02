@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+        <link rel="shortcut icon" href="icone/icone-IMC.png"/>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap"
+            rel="stylesheet"/>
+        <link rel="stylesheet" href="style.css"/>
+        <title>Calcule seu IMC</title>
+    </head>
+    <body>
+        <h1>IMC - Índice de Massa Corporal</h1>
+
+        <div class="calculadora">
+            <form action="">
+                <label for="altura" class="alt"> Altura </label>
+                <input type="number" name="" id="altura" placeholder="altura com vírgula"/> 
+                <br/>
+
+                <label for="peso" class="kg">Peso</label>
+                <input type="number" name="" id="peso" placeholder="seu peso em quilos" maxlength="5"/> 
+                <br/>
+
+                <button onclick="calcularImc()">Calcular IMC</button>
+                <br/>
+
+                <p class="info">
+                    Seu Índice de Massa Corporal é:
+                    <span id="resultado"></span> <br/>
+                    <span id="faixas"></span>
+                </p>
+            </form>
+        </div>
+
+        <h2>Você sabe a importância do IMC?</h2>
+
+        <div class="divBack">
+            <div class="conteudo">
+                <p>O Índice de Massa Corporal (IMC) é uma medida importante
+                    para avaliar a saúde geral de uma pessoa com base no seu
+                    peso e altura. Ele fornece uma estimativa rápida e simples
+                    da quantidade de gordura corporal e pode ajudar a
+                    identificar possíveis problemas de saúde relacionados ao
+                    peso.
+                </p>
+
+                
+                    <ol>
+                        <li><b>Avaliação do peso saudável:</b> O IMC ajuda a determinar
+                        se o peso de uma pessoa está dentro de uma faixa considerada
+                        saudável para sua altura. Isso pode ajudar na prevenção de
+                        doenças relacionadas à obesidade ou ao baixo peso.</li>
+
+                        <li> <b>Risco de doenças:</b> O IMC está associado a um maior
+                            risco de desenvolver uma série de doenças crônicas, como
+                            doenças cardíacas, diabetes tipo 2, hipertensão, entre
+                            outras. Pessoas com IMC muito alto ou muito baixo podem ter
+                            um risco aumentado dessas condições.</li>
+
+                        <li><b>Monitoramento de saúde:</b> O IMC pode ser usado como uma
+                            ferramenta de monitoramento ao longo do tempo. Ao acompanhar
+                            as mudanças no IMC, as pessoas podem ajustar seus hábitos
+                            alimentares e níveis de atividade física para manter um peso
+                            saudável.</li>
+
+                        <li><b>Aconselhamento médico:</b> Profissionais de saúde usam o
+                            IMC como parte da avaliação geral da saúde de uma pessoa.
+                            Com base no IMC, eles podem fornecer conselhos sobre dieta,
+                            exercício e outras medidas para melhorar a saúde.</li>
+                    </ol>
+                  
+                <p>No entanto, é importante notar que o IMC tem suas
+                    limitações. Ele não leva em conta a composição corporal,
+                    como a proporção de músculo e gordura, e pode não ser
+                    totalmente preciso para certos grupos, como atletas com
+                    grande massa muscular. Portanto, é apenas uma ferramenta
+                    inicial e outros fatores devem ser considerados ao avaliar a
+                    saúde de alguém.
+                </p>
+            </div>
+
+        </div>
+
+        <h2>Como é feita a análise do IMC?</h2>
+
+        <div class="divBack2">
+            <div class="analise">
+                <p>De acordo com a Organização Mundial da Saúde (OMS), a classificação do Índice de Massa Corporal (IMC) é um indicador crucial para avaliar a saúde e o peso corporal. Entender essas categorias é fundamental para adotar medidas preventivas e promover um estilo de vida mais saudável.</p>
+
+                
+                    <ul>
+                        <li><b>IMC &lt;18,5kg/m²:</b> Baixo peso. Recomenda-se buscar orientação médica para uma avaliação criteriosa, pois pode indicar deficiências nutricionais e riscos à saúde.</li>
+
+                        <li><b>IMC 18,5 a 24,9kg/m²:</b> Peso adequado. Apesar de estar dentro da faixa considerada saudável, é importante avaliar outros aspectos da composição corporal, como a circunferência abdominal, para garantir uma saúde ideal.</li>
+
+                        <li><b>IMC 25 a 29,9kg/m²:</b> Sobrepeso. Esta categoria está associada a um maior risco de doenças crônicas, como diabetes e hipertensão. Recomenda-se consultar um médico e rever hábitos alimentares e de atividade física.</li>
+
+                        <li><b>IMC 30,0 a 34,9kg/m²:</b> Obesidade grau I. Busque orientação médica e nutricional para compreender melhor sua condição e adotar medidas para melhorar sua saúde, mesmo que os exames de laboratório estejam normais.</li>
+
+                        <li><b>IMC 35,0 a 39,9kg/m²:</b> Obesidade grau II. Indica uma condição mais grave de obesidade, que requer intervenção médica e mudanças significativas no estilo de vida.</li>
+
+                        <li><b>IMC ≥ 40,0kg/m²:</b> Obesidade grau III. Nesta fase, o risco de desenvolver doenças associadas, como doenças cardiovasculares e problemas articulares, é elevado. É crucial procurar orientação médica imediatamente.</li>
+                    </ul>
+                
+
+                    <p class="pFinal" style="font-size: 1.8rem; line-height: 1em; padding: auto;">
+                        Lembre-se, uma abordagem proativa em relação à saúde é essencial. Agende uma consulta online com um profissional de saúde hoje mesmo para discutir seu IMC e elaborar um plano personalizado para melhorar sua saúde e bem-estar.
+                    </p>
+            </div>
+
+        </div>
+      
+
+
+<footer>Desenvolvido por Henrike P.B. &copy; | 2024 &nbsp;
+ <a href="https://github.com/Henrike-PB"><ion-icon name="logo-github"></ion-icon></a> 
+</footer>
+
+        <script>
+            function calcularImc() {
+                const peso = document.getElementById('peso').value;
+                const altura = document.getElementById('altura').value;
+                const imc = peso / altura ** 2;
+                document.getElementById('resultado').textContent =
+                    imc.toFixed(2);
+                let faixas = document.getElementById('faixas');
+
+                if (imc <= 18.5) {
+                    document.getElementById('faixas').textContent =
+                        'Você está abaixo do peso.';
+                } else if (imc <= 25.1) {
+                    document.getElementById('faixas').textContent =
+                        'Você está no peso ideal';
+                } else if (imc <= 30.0) {
+                    document.getElementById('faixas').textContent =
+                        'Você está com sobrepeso.';
+                } else if (imc <= 34.9) {
+                    document.getElementById('faixas').textContent =
+                        'obesidade grau I';
+                } else if (imc <= 39.9) {
+                    document.getElementById('faixas').textContent =
+                        'obesidade grau II';
+                } else if (imc >= 40.0) {
+                    document.getElementById('faixas').textContent =
+                        'obesidade grau III';
+                }
+            }
+        </script>
+    </body>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</html>

@@ -1,0 +1,127 @@
+@charset "utf-8";
+
+body {
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+    font-family: 'Fira Sans', sans-serif;
+    height: 100px;
+    background: url(https://images.unsplash.com/photo-1611077543693-a0194a16b034?q=80&w=1606&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 10vh;
+    font-weight: 100%;
+}
+
+h2 {
+    text-align: center;
+    color: black;
+    font-size: 2rem;
+    font-weight: 100%;
+}
+
+form {
+    background: rgba(255, 255, 255, 0.35);
+    color: black;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(30px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    padding: 5rem;
+    border-radius: 12%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+    margin: auto;
+    color: #000000;
+    text-align: center;
+}
+
+.calculadora {
+    text-align: center;
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    padding: 5%;
+    font-family: sans-serif;
+    font-size: 0.8em;
+    background-color: #3085a7;
+    border: none;
+    font-weight: 800;
+    color: #ffffff;
+    transition: opacity 0.3s ease;
+}
+
+button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+    
+}
+
+.divBack, .divBack2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo, .analise {
+    font-size: 0.99rem;
+    width: 73%;
+    background-color: #3085a7;
+    border-radius: 3rem;
+    padding: 50px;
+    line-height: 20px;
+    word-spacing: 0.2em;
+}
+
+input {
+    padding: 2%;
+    font-size: 1em;
+    font-family: sans-serif;
+    font-weight: 600;
+    border: none;
+    text-align: center;
+}
+
+li {
+    padding: 1rem;
+}
+
+footer {
+  font-size: 1.5em;
+  transform: translateY(100%);
+  text-align: center;
+  color: #000000;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #3085a7;
+}
+
+@media only screen and (max-width: 767px) {
+  h1 {
+    font-size: 37.5px;
+}
+
+footer {
+  font-size: 0.81rem;
+        text-align: center;
+}
+}
